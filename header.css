@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;;
+    
+}
+
+/* .section{
+    background-image: url(/Images/off_background.jpg); 
+    background-size: cover;
+    /* background: linear-gradient( rgb(41, 40, 40), rgb(21, 21, 23), rgb(97, 98, 97), rgb(17, 17, 16)); */
+    /* height: 100%;
+}  */
+header{
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 50px;  
+    /* header height according to height of nav height */
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

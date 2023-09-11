@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contactinfo{
+    background-image: linear-gradient(to right, #151515 , #212121);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* body {
+    background-color: #0D2030;
+} */
+
+.contact {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* use it during media queries */
+    /* justify-content: space-evenly; */
+    padding-top: 100px;
+    justify-content: center;
+}
+
+
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+
+
+.title2 {
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.rightdiv{
+    margin-left: 125px;
+}
+.rightdiv input {
+    height: 40px;
+    width: 90%;
+    text-decoration: none;
+    margin-bottom: 30px;
+    /* margin-right: 20px; */
+    /* outline: 1px solid rgb(57, 56, 56); */
+    /* background-color: darkgrey; */
+    border-radius: 5px;
+    /* color: black; */
+    border: none;
+    /* border-bottom: 1px solid yellow; */
+    background: none;
+    /* border: 1px soild grey; */
+    color: aliceblue;
+    padding-left: 25px;
+    box-shadow: -6px 1px 23px rgba(225, 255, 255, 0.077), 5px 5px 15px rgba(0, 0, 0, 0.904);
+
+    
+}
+
+.placeholder{
+    margin-left: 10px;
+}
+#i1::placeholder { 
+    color: rgb(133, 131, 131);
+    opacity: 1; 
+    text-align: start;
+    padding-left: 15px;
+  }
+#i2::placeholder { 
+    color: rgb(133, 131, 131);
+    opacity: 1; 
+    text-align: start;
+    padding-left: 15px;
+  }
+#i3::placeholder { 
+    color: rgb(133, 131, 131);
+    opacity: 1; 
+    text-align: start;
+    padding-left: 15px;
+    vertical-align: text-top;
+  }
+
+#i1 {
+    margin-top: 30px;
+    height: 50px;
+}
+
+#i2 {
+    height: 50px;
+}
+
+#i3 {
+    height: 100px;
+}
+.submit {
+    height: 40px;
+    width: 100px;
+   background: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    box-shadow: -6px 1px 23px rgba(225, 255, 255, 0.077), 5px 5px 15px rgba(0, 0, 0, 0.904);
+}
+.submit:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+    box-shadow: -6px 1px 23px rgba(8, 26, 193, 0.516), 5px 5px 15px rgba(0, 0, 0, 0.904);
+    background-image: linear-gradient(to right, #0c0580 , #1a1d3f);
+    
+}
+.thatsallSection{
+    background-image: linear-gradient(to right, #151515 , #212121);
+}
+.thatsallContainer{
+    display: flex;
+    margin-left: 160px;
+    padding: 45px;
+    
+}
+.thats{
+    font-size: 50px;
+    color: #2d2c2ce0;
+    font-weight: bolder;
+}
+/* ----------------Footer--------------- */
+footer{
+    background-image: linear-gradient(to right, #151515 , #212121);
+}
+.footerSection{
+    background-image: linear-gradient(to right, #020a11, #020a11, #020a11 , #051522);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.footericons{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footericons img{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.insta:hover{
+    background-color: rgb(147, 9, 98);
+}
+#linkedin:hover{
+    background-color: rgb(55, 107, 228);
+}
+#youtube:hover{
+    background-color: rgb(217, 24, 37);
+}
+#twitter:hover{
+    background-color: rgb(47, 14, 195);
+}
+#git:hover{
+    background-color: rgb(251, 156, 115);
+}
+
+.content{
+    padding: 10px;
+}
+.copy{
+    border-top: 1px solid rgb(90, 91, 90);
+    color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 900px) {
+    .contact {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .leftdiv {
+        margin-left: 0px;
+
+
+    }
+
+    .rightdiv {
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .title2 {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .info {
+
+        margin-bottom: 50px;
+    }
+    
+    .rightdiv {
+        margin-top: 20px;
+    }
+    .thatsallContainer{
+
+        margin-left: 1px;
+        padding: 50px;
+    
+        
+    }
+    #myBtn {
+        height: 10px;
+        width: 10px;
+    }
+    
+
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: rgba(10, 10, 158, 0.855);
+    color: white;
+    border-radius: 50%;
+  }

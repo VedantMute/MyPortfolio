@@ -1,0 +1,132 @@
+#section{
+    background: linear-gradient(to right, #1c2023 , #090808);
+}
+span{
+    color: yellow;
+}
+
+/* header{
+    border-bottom: 1px solid rgb(49, 49, 49);
+} */
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* height: 100vh; */
+    padding: 70px 0px 140px 0px ;
+    
+}
+.maincontent{
+    color: whitesmoke;
+    
+    margin: 125px 70px 0px 100px;
+}
+.hi{
+    font-size: 20px;
+}
+.name{
+    /* margin-top: 20px; */
+    font-size: 77px;
+}
+.bio{
+    margin-top: 15px;
+    font-size: 20px;
+    /* width: 800px; */
+    
+}
+.picture{
+    /* height: 150px; */
+    /* width: 400px; */
+    margin-right: 5vw;
+    
+}
+.picture img{
+    border-radius: 16px;
+}
+.resumebtn{
+    margin-top: 15px;
+    height: 20px;
+    width: 100px;
+    background: linear-gradient(to right, #17143a , #0e09a8cd);
+    padding: 8px 24px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -6px -6px 15px rgba(225, 255, 255, 0.037), 5px 5px 15px rgba(0, 0, 0, 0.771);
+    
+}
+.resumebtn:hover{
+
+    background: linear-gradient(to right, #212108 , rgba(255, 255, 0, 0.679));
+    color: black;
+    transition: ease-in 0.4s;
+}
+.icon{
+    margin-bottom: 100px;
+}
+.icon img{
+    margin-top: 75px;
+    padding-right: 10px;
+}
+
+
+
+
+@media(max-width:900px)
+{
+    .intro{
+        height: 100%;
+        /* padding-bottom: 10px; */
+    }
+    .maincontent{
+        margin: 100px 0px 0px 0px;
+        /* margin-left: 20px; */
+        text-align: center;
+        
+    }
+    .resumebutton{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .resumebtn{
+        align-items: center;
+        
+    }
+    .picture{
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    
+}
+@media(max-width:435px)
+{
+    .hi{
+        display: none;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .bio{
+        margin: 0px 14px;
+        font-size: 12px;
+    }
+    .picture img{
+        height: 180px;
+        width: 180px;
+    }
+    .resumebutton{
+        display: none;
+    }
+    .picture img{
+        border-radius: 20px
+    };
+}
+@media(max-width:300px)
+{
+    .picture img{
+        height: 150px;
+        width: 150px;
+    }
+}
